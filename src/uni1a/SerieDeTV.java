@@ -29,13 +29,13 @@ public void setEstudio(String estudio) {
  
 @Override
 public void mostrarDetalles() {
-    System.out.println("Detalles de la película:");
+    System.out.println("Detalles de la Serie de TV:");
     System.out.println("ID: " + getId());
     System.out.println("Título: " + getTitulo());
     System.out.println("Duración en minutos: " + getDuracionEnMinutos());
     System.out.println("Género: " + getGenero());
     System.out.println("Estudio: " + getEstudio());
-    System.out.println("Temporadas: " + this.temporadas);
+    System.out.println("Temporadas: " + getTemporadas());
     System.out.println();
 	}
 }
