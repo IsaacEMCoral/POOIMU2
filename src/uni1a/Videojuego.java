@@ -35,7 +35,7 @@ public void mostrarDetalles() {
     System.out.println("Duración en minutos: " + getDuracionEnMinutos());
     System.out.println("Género: " + getGenero());
     System.out.println("Tema: " + getTema());
-    System.out.println("Developer: " + getDeveloper());
+    System.out.println("Desarrollador del Videojuego: " + getDeveloper());
     System.out.println();
  	}
 }
